@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0DD124230EC11C00C0A227 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB0DD123230EC11C00C0A227 /* Inceptionv3.mlmodel */; };
+		EBB13170230E9AA100AC7A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1316F230E9AA100AC7A81 /* AppDelegate.swift */; };
+		EBB13172230E9AA100AC7A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB13171230E9AA100AC7A81 /* ViewController.swift */; };
+		EBB13174230E9AA200AC7A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB13173230E9AA200AC7A81 /* Assets.xcassets */; };
+		EBB13177230E9AA200AC7A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB13175230E9AA200AC7A81 /* Main.storyboard */; };
+		EBB13180230E9F1800AC7A81 /* MacCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1317F230E9F1800AC7A81 /* MacCamera.swift */; };
+		EBB13183230EA03300AC7A81 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB13182230EA03300AC7A81 /* CoreML.framework */; };
+		EBB13185230EA03A00AC7A81 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB13184230EA03A00AC7A81 /* Vision.framework */; };
+		EBB13187230EA24C00AC7A81 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB13186230EA24C00AC7A81 /* AVFoundation.framework */; };
+		EBB13189230EA25900AC7A81 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB13188230EA25900AC7A81 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB0DD123230EC11C00C0A227 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		EBB1316C230E9AA100AC7A81 /* MacOSCoreMLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSCoreMLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1316F230E9AA100AC7A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB13171230E9AA100AC7A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBB13173230E9AA200AC7A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB13176230E9AA200AC7A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB13178230E9AA200AC7A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB13179230E9AA200AC7A81 /* MacOSCoreMLTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSCoreMLTest.entitlements; sourceTree = "<group>"; };
+		EBB1317F230E9F1800AC7A81 /* MacCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCamera.swift; sourceTree = "<group>"; };
+		EBB13182230EA03300AC7A81 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		EBB13184230EA03A00AC7A81 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		EBB13186230EA24C00AC7A81 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBB13188230EA25900AC7A81 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB13169230E9AA100AC7A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB13189230EA25900AC7A81 /* CoreMedia.framework in Frameworks */,
+				EBB13187230EA24C00AC7A81 /* AVFoundation.framework in Frameworks */,
+				EBB13185230EA03A00AC7A81 /* Vision.framework in Frameworks */,
+				EBB13183230EA03300AC7A81 /* CoreML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0DD120230EC08900C0A227 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				EB0DD123230EC11C00C0A227 /* Inceptionv3.mlmodel */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		EBB13163230E9AA100AC7A81 = {
+			isa = PBXGroup;
+			children = (
+				EBB1316E230E9AA100AC7A81 /* MacOSCoreMLTest */,
+				EBB1316D230E9AA100AC7A81 /* Products */,
+				EBB13181230EA03300AC7A81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB1316D230E9AA100AC7A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1316C230E9AA100AC7A81 /* MacOSCoreMLTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB1316E230E9AA100AC7A81 /* MacOSCoreMLTest */ = {
+			isa = PBXGroup;
+			children = (
+				EB0DD120230EC08900C0A227 /* CoreML */,
+				EBB1316F230E9AA100AC7A81 /* AppDelegate.swift */,
+				EBB13171230E9AA100AC7A81 /* ViewController.swift */,
+				EBB13173230E9AA200AC7A81 /* Assets.xcassets */,
+				EBB13175230E9AA200AC7A81 /* Main.storyboard */,
+				EBB13178230E9AA200AC7A81 /* Info.plist */,
+				EBB13179230E9AA200AC7A81 /* MacOSCoreMLTest.entitlements */,
+				EBB1317F230E9F1800AC7A81 /* MacCamera.swift */,
+			);
+			path = MacOSCoreMLTest;
+			sourceTree = "<group>";
+		};
+		EBB13181230EA03300AC7A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB13188230EA25900AC7A81 /* CoreMedia.framework */,
+				EBB13186230EA24C00AC7A81 /* AVFoundation.framework */,
+				EBB13184230EA03A00AC7A81 /* Vision.framework */,
+				EBB13182230EA03300AC7A81 /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB1316B230E9AA100AC7A81 /* MacOSCoreMLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB1317C230E9AA200AC7A81 /* Build configuration list for PBXNativeTarget "MacOSCoreMLTest" */;
+			buildPhases = (
+				EBB13168230E9AA100AC7A81 /* Sources */,
+				EBB13169230E9AA100AC7A81 /* Frameworks */,
+				EBB1316A230E9AA100AC7A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSCoreMLTest;
+			productName = MacOSCoreMLTest;
+			productReference = EBB1316C230E9AA100AC7A81 /* MacOSCoreMLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB13164230E9AA100AC7A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yasuo Hasegawa";
+				TargetAttributes = {
+					EBB1316B230E9AA100AC7A81 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EBB13167230E9AA100AC7A81 /* Build configuration list for PBXProject "MacOSCoreMLTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB13163230E9AA100AC7A81;
+			productRefGroup = EBB1316D230E9AA100AC7A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB1316B230E9AA100AC7A81 /* MacOSCoreMLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB1316A230E9AA100AC7A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB13174230E9AA200AC7A81 /* Assets.xcassets in Resources */,
+				EBB13177230E9AA200AC7A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB13168230E9AA100AC7A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB13172230E9AA100AC7A81 /* ViewController.swift in Sources */,
+				EB0DD124230EC11C00C0A227 /* Inceptionv3.mlmodel in Sources */,
+				EBB13170230E9AA100AC7A81 /* AppDelegate.swift in Sources */,
+				EBB13180230E9F1800AC7A81 /* MacCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBB13175230E9AA200AC7A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB13176230E9AA200AC7A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB1317A230E9AA200AC7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB1317B230E9AA200AC7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EBB1317D230E9AA200AC7A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOSCoreMLTest/MacOSCoreMLTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YA9XRVTFJR;
+				INFOPLIST_FILE = MacOSCoreMLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoscoreml.test.MacOSCoreMLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBB1317E230E9AA200AC7A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOSCoreMLTest/MacOSCoreMLTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YA9XRVTFJR;
+				INFOPLIST_FILE = MacOSCoreMLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoscoreml.test.MacOSCoreMLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB13167230E9AA100AC7A81 /* Build configuration list for PBXProject "MacOSCoreMLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB1317A230E9AA200AC7A81 /* Debug */,
+				EBB1317B230E9AA200AC7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB1317C230E9AA200AC7A81 /* Build configuration list for PBXNativeTarget "MacOSCoreMLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB1317D230E9AA200AC7A81 /* Debug */,
+				EBB1317E230E9AA200AC7A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB13164230E9AA100AC7A81 /* Project object */;
+}
